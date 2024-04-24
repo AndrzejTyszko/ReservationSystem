@@ -407,3 +407,4 @@ C:\Users\matit\source\repos\ConcertReservationSystem\ReservationSystem\obj\Debug
 C:\Users\matit\source\repos\ConcertReservationSystem\ReservationSystem\obj\Debug\net8.0\ReservationSystem.pdb
 C:\Users\matit\source\repos\ConcertReservationSystem\ReservationSystem\obj\Debug\net8.0\ReservationSystem.genruntimeconfig.cache
 C:\Users\matit\source\repos\ConcertReservationSystem\ReservationSystem\obj\Debug\net8.0\ref\ReservationSystem.dll
+C:\Users\matit\Source\Repos\ReservationSystem\ReservationSystem\obj\Debug\net8.0\ReservationSystem.sourcelink.json

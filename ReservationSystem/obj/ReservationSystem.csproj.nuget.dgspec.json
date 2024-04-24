@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matit\\source\\repos\\ConcertReservationSystem\\ReservationSystem\\ReservationSystem.csproj": {}
+    "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystem\\ReservationSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matit\\source\\repos\\ConcertReservationSystem\\ReservationSystem\\ReservationSystem.csproj": {
+    "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystem\\ReservationSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matit\\source\\repos\\ConcertReservationSystem\\ReservationSystem\\ReservationSystem.csproj",
+        "projectUniqueName": "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystem\\ReservationSystem.csproj",
         "projectName": "ReservationSystem",
-        "projectPath": "C:\\Users\\matit\\source\\repos\\ConcertReservationSystem\\ReservationSystem\\ReservationSystem.csproj",
+        "projectPath": "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystem\\ReservationSystem.csproj",
         "packagesPath": "C:\\Users\\matit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matit\\source\\repos\\ConcertReservationSystem\\ReservationSystem\\obj\\",
+        "outputPath": "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matit\\AppData\\Roaming\\NuGet\\NuGet.Config",

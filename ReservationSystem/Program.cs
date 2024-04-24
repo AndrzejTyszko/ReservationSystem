@@ -24,6 +24,14 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+// Dodaj obs³ugê CORS
+app.UseCors(policy =>
+{
+    policy.AllowAnyOrigin(); // Mo¿esz te¿ okreœliæ konkretn¹ domenê lub adres URL
+    policy.AllowAnyMethod();
+    policy.AllowAnyHeader();
+});
+
 app.MapControllers();
 
 app.Run();

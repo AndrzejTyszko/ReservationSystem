@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UrdylfAZs+uw6Bu9h2dTzlGJ9W5jlc1xOjLFfm0MCSPdk9aEzArj09lpTIG8/mJF2PVscr1F4tFEeD6SBGWTWw==",
+  "dgSpecHash": "Sqp/FIQhybhyvexK3KsKbqsKbExXq6oingSCWhqNiQeSDZQo7gCD9cqg7OSSrl24XcoX7p2r8lrXWBolMO5zBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matit\\source\\repos\\ConcertReservationSystem\\ReservationSystem\\ReservationSystem.csproj",
+  "projectFilePath": "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystem\\ReservationSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matit\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\matit\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
