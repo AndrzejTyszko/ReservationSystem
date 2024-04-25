@@ -27,7 +27,13 @@
         </section>
         
         <section>
-            <h2>All Reservations</h2>
+            <h2>Display Reservations</h2>
+            <label for="selectMode">Select Mode:</label>
+            <select id="selectMode">
+                <option value="all">All Reservations</option>
+                <option value="single">Single Reservation by ID</option>
+            </select>
+            
             <table class="table" id="reservationTable">
                 <thead>
                     <tr>

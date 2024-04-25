@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\matit\\source\\repos\\ReservationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|c:\\users\\matit\\source\\repos\\reservationsystem\\reservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|solutionrelative:reservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystemApp\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ReservationSystemApp\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|C:\\Users\\matit\\source\\repos\\ReservationSystem\\reservationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|c:\\users\\matit\\source\\repos\\reservationsystem\\reservationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|solutionrelative:reservationsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|C:\\Users\\matit\\source\\repos\\ReservationSystem\\reservationsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|solutionrelative:reservationsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|C:\\Users\\matit\\source\\repos\\ReservationSystem\\reservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0B4C8CA-DCDD-41E2-A718-9F6129C64D86}|ReservationSystem\\ReservationSystem.csproj|solutionrelative:reservationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystemApp\\script.js",
+              "RelativeDocumentMoniker": "ReservationSystemApp\\script.js",
+              "ToolTip": "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystemApp\\script.js",
+              "RelativeToolTip": "ReservationSystemApp\\script.js",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAwwNMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-24T19:10:34.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\matit\\source\\repos\\ReservationSystem\\ReservationSystem\\Program.cs",
               "RelativeDocumentMoniker": "ReservationSystem\\Program.cs",
@@ -38,8 +55,7 @@
               "RelativeToolTip": "ReservationSystem\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:56:18.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T23:56:18.362Z"
             },
             {
               "$type": "Document",
@@ -63,7 +79,8 @@
               "RelativeToolTip": "ReservationSystem\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-23T23:36:35.304Z"
+              "WhenOpened": "2024-04-23T23:36:35.304Z",
+              "EditorCaption": ""
             }
           ]
         }

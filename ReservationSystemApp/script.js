@@ -26,6 +26,19 @@ document.addEventListener('DOMContentLoaded', function () {
             console.error('Validation Error:', error.message);
         }
     });
+
+    const selectMode = document.getElementById('selectMode');
+    selectMode.addEventListener('change', function () {
+        const selectedMode = selectMode.value;
+        if (selectedMode === 'all') {
+            loadReservations();
+        } else if (selectedMode === 'single') {
+            const reservationId = prompt('Enter Reservation ID:');
+            if (reservationId) {
+                displaySingleReservation(reservationId);
+            }
+        }
+    });
 });
 
 function validateForm() {
@@ -56,7 +69,6 @@ function validateForm() {
     }
 }
 
-
 function loadReservations() {
     const reservationTableBody = document.querySelector('#reservationTable tbody');
     reservationTableBody.innerHTML = '';
@@ -84,6 +96,40 @@ function loadReservations() {
         })
         .catch(error => {
             console.error('Error:', error);
+        });
+}
+
+function displaySingleReservation(id) {
+    const reservationTableBody = document.querySelector('#reservationTable tbody');
+    reservationTableBody.innerHTML = '';
+
+    fetch(`https://localhost:7019/api/reservation/${id}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Reservation not found');
+            }
+            return response.json();
+        })
+        .then(reservation => {
+            const reservationDate = new Date(reservation.reservationTime);
+            const formattedDate = reservationDate.toLocaleDateString('pl-PL');
+            const row = `
+                <tr>
+                    <td>${reservation.id}</td>
+                    <td>${reservation.userName}</td>
+                    <td>${reservation.seatNumber}</td>
+                    <td>${formattedDate}</td>
+                    <td>
+                        <button onclick="editReservation(${reservation.id})">Edit</button>
+                        <button onclick="deleteReservation(${reservation.id})">Delete</button>
+                    </td>
+                </tr>
+            `;
+            reservationTableBody.innerHTML = row;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert(error.message);
         });
 }
 
