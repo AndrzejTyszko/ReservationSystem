@@ -209,3 +209,21 @@ function deleteReservation(id) {
             console.error('Error:', error);
         });
 }
+function searchByID() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("searchByID");
+    filter = input.value;
+    table = document.getElementById("reservationTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0]; // ID column
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }       
+    }
+}
