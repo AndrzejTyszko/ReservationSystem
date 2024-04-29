@@ -59,6 +59,25 @@ namespace ConcertReservationSystem.Controllers
             return Ok();
         }
 
+//         [HttpPut("{id}")]
+//         public IActionResult UpdateReservation(int id, Reservation updatedReservation)
+//         {
+//             var reservation = _context.Reservations.Find(id);
+//             if (reservation == null)
+//             {
+//                 return NotFound();
+//             }
+
+//             reservation.UserName = updatedReservation.UserName;
+//             reservation.SeatNumber = updatedReservation.SeatNumber;
+//             reservation.ReservationTime = DateTime.Now; // Możesz zaktualizować czas rezerwacji, jeśli chcesz
+
+//             _context.SaveChanges();
+//             return Ok();
+//         }
+//     }
+// }
+
         [HttpPut("{id}")]
         public IActionResult UpdateReservation(int id, Reservation updatedReservation)
         {
@@ -68,6 +87,14 @@ namespace ConcertReservationSystem.Controllers
                 return NotFound();
             }
 
+            // Sprawdź, czy aktualny numer miejsca już istnieje w bazie danych
+            var existingReservationWithSameSeat = _context.Reservations.FirstOrDefault(r => r.SeatNumber == updatedReservation.SeatNumber && r.Id != id);
+            if (existingReservationWithSameSeat != null)
+            {
+                // Zwróć błąd, jeśli już istnieje rezerwacja z tym numerem miejsca
+                return Conflict("Miejsce o podanym numerze jest już zajęte.");
+            }
+
             reservation.UserName = updatedReservation.UserName;
             reservation.SeatNumber = updatedReservation.SeatNumber;
             reservation.ReservationTime = DateTime.Now; // Możesz zaktualizować czas rezerwacji, jeśli chcesz
@@ -75,5 +102,8 @@ namespace ConcertReservationSystem.Controllers
             _context.SaveChanges();
             return Ok();
         }
+
     }
 }
+
+
